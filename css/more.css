@@ -1,0 +1,73 @@
+.more {
+}
+
+.more .more__header {
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.more .more__text {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.more .more__comment {
+  margin-right: 15px;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.more .more__header-section,
+.suggestions .suggestions__lists {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.more .more__header-list,
+.suggestions .suggestions__list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.more .more__header-list:nth-child(1),
+.suggestions .suggestions__list:nth-child(1) {
+  margin-left: 30px;
+}
+
+.more .more__header-icon,
+.suggestions .suggestions-icon {
+  text-align: center;
+  justify-content: center;
+}
+
+.more .more__header-name,
+.suggestions .suggestions-name {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.more .suggestions {
+  margin-top: 23px;
+}
+
+.suggestions .suggestions__title {
+  margin-left: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.suggestions .suggestions-name {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.suggestions .suggestions-icon {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  color: white;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
