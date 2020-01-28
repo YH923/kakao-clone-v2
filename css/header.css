@@ -24,11 +24,17 @@
   font-size: 20px;
 }
 
+.header .header__back-icon {
+  margin-right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
 .header .header__title {
   font-size: 25px;
   font-weight: 600;
 }
 
-.header .title-header i {
-  margin-left: 15px;
+.header .header__icon i {
+  margin-left: 10px;
 }
