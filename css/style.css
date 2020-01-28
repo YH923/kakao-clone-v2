@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 @import "header.css";
 @import "nav.css";
-
+@import "preview.css";
 body,
 html {
   font-family: "Open Sans", sans-serif;
