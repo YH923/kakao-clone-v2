@@ -1,0 +1,26 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fcfcfc;
+}
+
+.nav .nav__lists {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.nav .nav__list {
+  font-size: 10px;
+  padding: 20px 10px;
+}
+
+.nav .nav__list:first-child {
+  margin-left: 35px;
+}
+
+.nav .nav__list:last-child {
+  margin-right: 35px;
+}
