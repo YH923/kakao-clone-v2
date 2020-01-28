@@ -3,6 +3,8 @@
 @import "header.css";
 @import "nav.css";
 @import "preview.css";
+@import "find.css";
+
 body,
 html {
   font-family: "Open Sans", sans-serif;

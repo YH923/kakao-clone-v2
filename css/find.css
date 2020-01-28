@@ -1,0 +1,46 @@
+.find {
+}
+
+.find .find__section {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  padding: 10px 20px 20px 10px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.find .find__section-list {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.find .find__section-title {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.find .recom {
+}
+
+.recom .recom-title {
+  margin-left: 18px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.recom .recom__plusbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 17px;
+  font-size: 11px;
+  background-color: #f5f5f5;
+  width: 60px;
+  height: 40px;
+  border-radius: 20%;
+}
