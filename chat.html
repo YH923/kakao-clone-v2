@@ -11,7 +11,7 @@
     ></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="chat-default">
+  <body class="chat-body">
     <header class="header">
       <div class="top-header">
         <div class="header__column">
@@ -49,43 +49,59 @@
           <div class="chat__send-to-me">
             <div class="chats__preview preview">
               <div class="preview__head">
-              <img class="g-avatar" src="images/avatar.jpg" alt="" />
-              <div class="preview__contents">
-                <span class="preview__name chat__name">Jamie</span>
-                <span class="preview__text chat__box chat__text-receive">Congrats I love you!</span>
+                <img
+                  class="g-avatar chat__avatar"
+                  src="images/avatar.jpg"
+                  alt=""
+                />
+                <div class="preview__contents">
+                  <span class="preview__name chat__name">Jamie</span>
+                  <span class="preview__text chat__box chat__text-receive"
+                    >Congrats I love you!</span
+                  >
+                </div>
               </div>
+              <div class="preview__tail"></div>
             </div>
-            <div class="preview__tail"></div>
           </div>
-          <div class="chat__send-From-me">
-            <span class="preview__text chat__box chat__text-send">Thank you see you soon!</span>
+          <div class="chat__send-from-me">
+            <span class="preview__text chat__box chat__text-send"
+              >Thank you see you soon!</span
+            >
           </div>
         </li>
         <li class="chat__list">
           <div class="chat__send-to-me">
             <div class="chats__preview preview">
               <div class="preview__head">
-              <img class="g-avatar" src="images/avatar.jpg" alt="" />
-              <div class="preview__contents">
-                <span class="preview__name">Jamie</span>
-                <span class="preview__text chat__box chat__text-receive">Congrats I love you!</span>
+                <img
+                  class="g-avatar chat__avatar"
+                  src="images/avatar.jpg"
+                  alt=""
+                />
+                <div class="preview__contents">
+                  <span class="preview__name">Jamie</span>
+                  <span class="preview__text chat__box chat__text-receive"
+                    >Congrats I love you!</span
+                  >
+                </div>
               </div>
+              <div class="preview__tail"></div>
             </div>
-            <div class="preview__tail"></div>
           </div>
-          <div class="chat__send-From-me">
-            <span class="preview__text chat__box chat__text-send">Thank you see you soon!</span>
+          <div class="chat__send-from-me">
+            <span class="preview__text chat__box chat__text-send"
+              >Thank you see you soon!</span
+            >
           </div>
         </li>
       </ul>
       <div class="chat__messagebox msgbox">
-        <div class="msgbox__head">
+        <input class="msgbox__input" type="text" placeholder="Send message" />
+        <div class="msgbox__head msgbox__item">
           <i class="far fa-plus-square fa-2x"></i>
         </div>
-        <div class="msgbox__input">
-          <input type="text" placeholder="Send message" />
-        </div>
-        <div class="msgbox__tail">
+        <div class="msgbox__tail msgbox__item">
           <i class="far fa-smile-wink fa-2x"></i>
           <i class="fas fa-microphone fa-2x"></i>
         </div>

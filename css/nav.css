@@ -37,3 +37,20 @@
   border-radius: 50%;
   text-align: center;
 }
+
+@keyframes navAnim {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(50px);
+  animation: navAnim 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
